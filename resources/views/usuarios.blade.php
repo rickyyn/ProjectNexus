@@ -1,5 +1,5 @@
 @extends('template')
-@section('titulo', 'Sobre')
+@section('titulo', 'Usuarios')
 @section('conteudo')
 
 <div class="overflow-x-auto px-4 py-8 bg-gray-900 min-h-[80vh]">

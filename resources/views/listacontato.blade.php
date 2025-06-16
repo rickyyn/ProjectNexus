@@ -1,5 +1,5 @@
 @extends('template')
-@section('titulo', 'Sobre')
+@section('titulo', 'lista de contatos')
 @section('conteudo')
 
 <div class="overflow-x-auto max-w-full px-6 py-8 bg-gray-900 rounded-md shadow-md">

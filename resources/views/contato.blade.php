@@ -1,5 +1,5 @@
 @extends('template')
-@section('titulo', 'Sobre')
+@section('titulo', 'Contato')
 @section('conteudo')
 
 <section class="flex flex-col items-center justify-center min-h-[80vh] px-6 py-16  text-gray-100">

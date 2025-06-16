@@ -4,7 +4,6 @@
 
 <div class="min-h-screen bg-gray-900 text-gray-100 flex flex-col">
 
-  <!-- Hero / Banner -->
   <section class="bg-gradient-to-r from-violet-900 via-purple-900 to-violet-800 py-20 px-6 text-center md:px-12 rounded-md">
     <h1 class="text-6xl font-extrabold max-w-4xl mx-auto leading-tight drop-shadow-lg">
       Sobre o <span class="text-violet-400">Project Nexus</span>
@@ -14,10 +13,9 @@
     </p>
   </section>
 
-  <!-- Conteúdo Principal -->
   <section class="flex-grow max-w-5xl mx-auto px-6 md:px-12 py-16 grid grid-cols-1 md:grid-cols-2 gap-16">
 
-    <!-- Texto sobre o projeto -->
+  
     <article class="space-y-6">
       <h2 class="text-3xl font-semibold border-b border-violet-600 pb-3 max-w-max">
         O que é o Project Nexus?
@@ -37,7 +35,7 @@
       </button>
     </article>
 
-    <!-- Equipe -->
+    
     <aside class="bg-gray-800 rounded-xl p-8 flex flex-col justify-center shadow-lg">
       <h3 class="text-2xl font-semibold mb-6 text-center text-violet-300 tracking-wide">
         Nossa Equipe

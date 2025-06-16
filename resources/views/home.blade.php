@@ -1,5 +1,5 @@
 @extends('template')
-@section('titulo', 'Sobre')
+@section('titulo', 'Home')
 @section('conteudo')
 
 <main class="flex flex-col md:flex-row items-center rounded-md justify-between lg:px-16 px-4 py-12 bg-gray-950 text-gray-300 min-h-[70vh]">
@@ -22,7 +22,7 @@
     </p>
 
     <a
-  href="/frmlogin"
+  href="/sobre"
   class="bg-violet-600 hover:bg-violet-700 transition-colors duration-200 text-white font-medium py-3 px-6 rounded-md cursor-pointer focus:outline-none focus:ring-2 focus:ring-violet-700 inline-block text-center"
 >
   SAIBA MAIS!
@@ -45,7 +45,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const el = document.getElementById('typed');
-    el.innerHTML = ''; // Limpa o fallback inicial antes de iniciar o Typed.js
+    el.innerHTML = '';
 
     new Typed(el, {
       strings: ['RÁPIDO', 'SEGURO', 'COM DESCONTO', 'ONLINE', 'FÁCIL'],
