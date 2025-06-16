@@ -7,7 +7,7 @@
   @foreach($prod as $p)
   <article class="bg-gray-950 rounded-3xl shadow-lg flex flex-col min-h-[50vh] overflow-hidden">
     <div class="p-2">
-      {{$p->imagem}}
+      <img src="{{ asset('storage/' . $p->imagem) }}" alt="Imagem de {{ $p->nome }}" class="object-cover rounded-md" />
     </div>
     <div class="px-4 py-4 text-center mt-auto">
       <h3 class="text-xl font-semibold text-violet-400 mb-1">{{$p->nome}}</h3>
