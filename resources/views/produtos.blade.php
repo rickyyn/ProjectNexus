@@ -11,8 +11,8 @@
     </div>
     <div class="px-4 py-4 text-center mt-auto">
       <h3 class="text-xl font-semibold text-violet-400 mb-1">{{$p->nome}}</h3>
-      <p class="text-violet-200 font-medium">{{$p->preco}}</p>
-      <p class="text-violet-200 font-medium">{{$p->quantidade}}</p>
+      <p class="text-violet-200 font-medium">R${{$p->preco}}</p>
+      <p class="text-violet-200 font-medium">{{$p->quantidade}} Disponiveis</p>
     </div>
   </article>
 @endforeach
