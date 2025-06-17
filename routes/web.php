@@ -27,7 +27,7 @@ Route::get('/usuarios', [AppController::class, 'usuarios']);
 Route::get('/frmeditusuario/{id}', [AppController::class, 'frmeditusuario']);
 
 
-Route::post('/atualizarusuario/{id}', [AppController::class, 'atualizarusuario']);
+Route::put('/atualizarusuario/{id}', [AppController::class, 'atualizarusuario']);
 Route::delete('/excluirusuario/{id}', [AppController::class, 'excluirusuario']);
 
 
